@@ -105,6 +105,7 @@ i {
 .divB p {
   /* background-color: palegreen; */
   color: gray;
+  font-size: 12px;
   padding: 5px;
   font-weight: lighter;
 }
@@ -131,14 +132,21 @@ i {
   border: none;
   border-radius: 10px;
   /* background-color: transparent; */
-
 }
 
 #btn1 p {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 18px;
-  color: red;
+  /* color: red; */
+}
 
+#p1{
+  color: black;
+}
+#p2{
+  color: tomato;
+  background-color:azure;
+  border-radius: 5px;
 }
 
 #btn2 {
@@ -147,14 +155,20 @@ i {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 5px;
+  margin-top: 10px;
   font-size: 15px;
   font-weight: 900;
   border: none;
   border-radius: 10px;
-
 }
 
+#btn2 i{
+  color: tomato;
+}
+
+#i2{
+  color: black;
+}
 #btn3 {
   height: 40px;
   width: 330px;
@@ -164,12 +178,11 @@ i {
   align-items: center;
   border: none;
   color: white;
-  margin-top: 5px;
+  margin-top: 10px;
   font-size: 15px;
   font-weight: 900;
   border-radius: 10px;
   box-shadow: 3px 22px 19px 2px rgba(255, 99, 71, 0.43);
-
 }
 
 #btn3 i {
