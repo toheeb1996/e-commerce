@@ -87,7 +87,7 @@ i {
   font-size: 15px;
   font-family: 'Courier New', Courier, monospace;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 12px;
 }
 
 .divB h2 {
@@ -105,7 +105,7 @@ i {
 .divB p {
   /* background-color: palegreen; */
   color: gray;
-  font-size: 12px;
+  font-size: 13px;
   padding: 5px;
   font-weight: lighter;
 }
@@ -131,22 +131,27 @@ i {
   font-weight: 900;
   border: none;
   border-radius: 10px;
-  /* background-color: transparent; */
+  background-color: transparent;
 }
 
 #btn1 p {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 18px;
+  /* font-size: 18px; */
   /* color: red; */
 }
 
 #p1{
   color: black;
+    font-size: 18px;
+
 }
+
 #p2{
   color: tomato;
-  background-color:azure;
+  background-color:linen;
   border-radius: 5px;
+  font-size: 12px;
+
 }
 
 #btn2 {
